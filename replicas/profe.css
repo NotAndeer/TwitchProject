@@ -1,0 +1,173 @@
+body {
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    width: 100vw;
+    height: 100vh;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #a550ff;
+}
+
+.row {
+    align-items: center;
+    display: flex;
+}
+
+.p-2 {
+    padding: 2px;
+}
+
+.p-4 {
+    padding: 4px;
+}
+
+.p-8 {
+    padding: 8px;
+}
+
+.p-16 {
+    padding: 16px;
+}
+.container-category{
+    width: 100%;
+    height: 321px;
+    background-color: #0e0e10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.purple-background {
+    background-color: rgb(89, 0, 191);
+}
+.container3{
+    height: 321px;
+    width: 199px;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+
+}
+.container3-img{
+    height: 255px;
+    width: 100%;
+    background-color: azure;
+    display: flex;
+    background-image: url(https://static-cdn.jtvnw.net/ttv-boxart/509658-188x250.jpg);
+    background-size: contain;
+}
+.container4-img{
+    height: 255px;
+    width: 100%;
+    background-color: azure;
+    display: flex;
+    background-image: url(https://static-cdn.jtvnw.net/ttv-boxart/509663-188x250.jpg);
+    background-size: contain;
+}
+.container5-img{
+    height: 255px;
+    width: 100%;
+    background-color: azure;
+    display: flex;
+    background-image: url(https://static-cdn.jtvnw.net/ttv-boxart/27471_IGDB-188x250.jpg);
+    background-size: contain;
+}
+.container6-img{
+    height: 255px;
+    width: 100%;
+    background-color: azure;
+    display: flex;
+    background-image: url(https://static-cdn.jtvnw.net/ttv-boxart/32982_IGDB-188x250.jpg);
+    background-size: contain;
+}
+.container7-img{
+    height: 255px;
+    width: 100%;
+    background-color: azure;
+    display: flex;
+    background-image: url(https://static-cdn.jtvnw.net/ttv-boxart/512980-188x250.jpg);
+    background-size: contain;
+}
+.container8-img{
+    height: 255px;
+    width: 100%;
+    background-color: azure;
+    display: flex;
+    background-image: url(https://static-cdn.jtvnw.net/ttv-boxart/33214-188x250.jpg);
+    background-size: contain;
+}
+
+.container3-img:hover {
+    transform: translate(5px, -5px);
+}
+.container4-img:hover {
+    transform: translate(5px, -5px);
+}
+.container5-img:hover {
+    transform: translate(5px, -5px);
+}
+.container6-img:hover {
+    transform: translate(5px, -5px);
+}
+.container7-img:hover {
+    transform: translate(5px, -5px);
+}
+.container8-img:hover {
+    transform: translate(5px, -5px);
+}
+.metadata-preview-container {
+    align-items: flex-start;
+    display: flex;
+    gap: 8px;
+    width: 100%;
+}
+
+
+.inner-metadata-container {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    font-size: 12px;
+    gap: 6px;
+    margin: 0;
+    min-width: 0;
+}
+
+.truncated-text-container {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.video-title {
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.video-description-labels {
+    font-size: 10px;
+}
+
+.pills-container {
+    gap: 4px;
+}
+
+.badge-pill {
+    background-color: #343434;
+    border-radius: 8px;
+    color: white;
+    font-size: 10px;
+    padding: 2px 6px;
+    width: fit-content;
+}
