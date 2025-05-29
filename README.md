@@ -1,5 +1,3 @@
-¡Por supuesto! A continuación, te presento una versión mejorada y profesional del archivo README.md para tu proyecto TwitchProject. Esta versión está diseñada para proporcionar una descripción clara y detallada de tu proyecto, facilitando su comprensión y uso por parte de otros desarrolladores.
-
 🎮 TwitchProject
 TwitchProject es una maqueta web inspirada en la interfaz de Twitch, desarrollada con HTML y CSS. Este proyecto tiene como objetivo replicar la apariencia de la plataforma de streaming, sirviendo como ejercicio práctico para mejorar habilidades en diseño web y estructuración de interfaces.
 
